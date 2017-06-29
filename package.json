@@ -1,0 +1,32 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "gulp.js",
+  "scripts": {
+    "test": "scss-lint src/sass/* --config lint.yml",
+    "postinstall": "npm install -g gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "dkharchenko",
+  "license": "ISC",
+  "homepage": "",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-cache": "^0.4.0",
+    "gulp-clean-css": "^2.0.7",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-server-livereload": "^1.5.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.4",
+    "gulp-uncss": "^1.0.6"
+  },
+  "description": ""
+}
